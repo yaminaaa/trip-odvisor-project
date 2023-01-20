@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trip O'dvisor</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <header class="header">
+    <nav>
+      <div class="header_part">
+        <div class="container">
+          <div class="header_flex">
+            <a class="logo" href="">
+              <img class="logo_image" src="img/logo-theme-green.png" alt="">
+              <span class="logo_title">Trip O'dvisor</span>
+            </a>
+            <div class="menu">
+              <a class="menu_item" id="favorites">Favoris</a>
+              <a class="menu_item" id="newsletter">Newsletter</a>
+              <a class="menu_item" id="reviews">Avis</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_part">
+        <div class="container">
+          <div class="submenu">
+            <a class="submenu_item submenu_item--current">Voyages</a>
+            <a class="submenu_item">Restaurants</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="content">
+      <h1 class="content_title">Partir en voyage</h1>
+
+      <section class="segment">
+        <h2 class="segment_title">Destinations</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="card_content">
+              <img class="card_image" src="img/canyon.jpg" alt="">
+              <h3 class="card_title">Partir à l'aventure</h3>
+              <p class="card_desc">Lorem ipsum beatae autem architecto rerum voluptates</p>
+            </div>
+            <div class="card_action">
+              <a class="btn" href="">Découvrir</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card_content">
+              <img class="card_image" src="img/city.jpg" alt="">
+              <h3 class="card_title">Partir à l'étranger</h3>
+              <p class="card_desc">Lorem ipsum, recusandae consequuntur adipisci, ipsa molestiae dicta aperiam!</p>
+            </div>
+            <div class="card_action">
+              <a class="btn" href="">Découvrir</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card_content">
+              <img class="card_image" src="img/nature.jpg" alt="">
+              <h3 class="card_title">Promenade dans la nature</h3>
+              <p class="card_desc">Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+            <div class="card_action">
+              <a class="btn" href="">Découvrir</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card_content">
+              <img class="card_image" src="img/ocean.jpg" alt="">
+              <h3 class="card_title">Partir à la mer</h3>
+              <p class="card_desc">Lorem ipsum, rem velit ex explicabo alias praesentium deserunt nesciunt reprehenderit</p>
+            </div>
+            <div class="card_action">
+              <a class="btn" href="">Découvrir</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- si on a besoin de cibler un élément en JS et qu'on n'a pas de moyen de le faire avec balise ou classe, on peut ajouter un id -->
+      <section class="segment" id="comments_container">
+        <h2 class="segment_title">Derniers commentaires</h2>
+        <article class="review">
+          <h3 class="review_title">Thibault Lognaise</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae esse provident velit perspiciatis nemo rem assumenda.</p>
+        </article>
+        <article class="review">
+          <h3 class="review_title">Judas Bricaut</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi a iusto molestias voluptatum expedita exercitationem id modi, neque similique ipsum, quam sit minima quo reiciendis! Ipsum temporibus adipisci praesentium quae!</p>
+        </article>
+        <article class="review">
+          <h3 class="review_title">Emma Yonaise</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti at ex pariatur maxime inventore non.</p>
+        </article>
+      </section>
+
+      <section class="segment">
+        <h2 class="newsletter_title">Inscription à la newsletter</h2>
+        <form>
+          <label for="subscriber-email">Adresse e-mail</label>
+          <input class="newsletter_field" type="text" id="subscriber-email">
+          <button class="btn" type="submit">Valider</button>
+        </form>
+      </section>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Toute ressemblance avec d'autres contenus est purement fortuite.</p>
+    </div>
+  </footer>
+
+  <!-- on indique au navigateur qu'il faut utiliser le fichier JS -->
+  <script src="js/index.js"></script>
+</body>
+</html>
